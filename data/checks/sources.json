@@ -1,0 +1,29 @@
+{
+ "sources": [
+  {
+   "id": "pravo-jewish-autonomous-oblast",
+   "kind": "legislation",
+   "name": {
+    "en": "Jewish Autonomous Oblast: Official Internet Portal of Legal Information (region79)",
+    "ru": "Jewish Autonomous Oblast: Официальный интернет-портал правовой информации (region79)"
+   },
+   "url": "http://publication.pravo.gov.ru/documents/block/region79",
+   "reads": {
+    "en": "every page of the subject's law-type documents (metadata API), each check",
+    "ru": "все страницы списка законов субъекта (API метаданных), при каждой проверке"
+   },
+   "folders": [
+    "zakony-<year>/"
+   ],
+   "schedule": "daily",
+   "state": "watched",
+   "corpora": [
+    "russia/jewish-autonomous-oblast/acts"
+   ],
+   "interval": 3.2,
+   "repo": "russia-jewish-autonomous-oblast-law",
+   "group": "pravo",
+   "tz": "Asia/Vladivostok"
+  }
+ ]
+}
