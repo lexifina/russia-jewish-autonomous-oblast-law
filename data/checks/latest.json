@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T06:59:05Z",
+ "generated": "2026-11-26T06:16:04Z",
  "latest": {
   "pravo-jewish-autonomous-oblast|russia/jewish-autonomous-oblast/acts": {
    "attempt": 1,
@@ -12,26 +12,35 @@
     "sampled": 2
    },
    "census": {
-    "checked": 1736,
+    "checked": 1740,
     "current": 1736,
     "gone": 0,
     "held": 1736,
     "newest_in_repo": "2026-11-16",
-    "pending": 0,
+    "pending": 4,
     "repo": 1736,
-    "source_in_scope": 1736
+    "source_in_scope": 1740
    },
-   "check_id": "ru-pravo-jewish-autonomous-oblast-20261125T052926Z",
-   "commits": null,
+   "check_id": "ru-pravo-jewish-autonomous-oblast-20261126T052603Z",
+   "commits": {
+    "count": 2,
+    "from": "1eb3b19272c301ff71f034ac123f79099a034692",
+    "to": "a6127500f801e541c0e64af2a8c68f2c16622748"
+   },
    "corpus": "russia/jewish-autonomous-oblast/acts",
    "error": null,
-   "finished": "2026-11-25T05:30:13Z",
+   "finished": "2026-11-26T05:26:59Z",
    "flags": [],
    "gap": 0,
-   "note": "publication.pravo.gov.ru, block region79: 1736 law-type documents listed (every page read); 1736 held here; 0 published since and not yet here; facts only, no law text (the PDF texts are under /File, which robots.txt disallows)",
-   "outcome": "no-change",
+   "note": "publication.pravo.gov.ru, block region79: 1740 law-type documents listed (every page read); 1736 held here; 4 published since and not yet here; facts only, no law text (the PDF texts are under /File, which robots.txt disallows)",
+   "outcome": "changed",
    "published": {
-    "added": [],
+    "added": [
+     "7900202611250003",
+     "7900202611250004",
+     "7900202611250007",
+     "7900202611250009"
+    ],
     "changed": [],
     "removed": []
    },
@@ -39,16 +48,31 @@
    "runner": "lawwatch russia (65e3dde363)",
    "schema": "lexifina-check/1",
    "seen": {
-    "added": [],
+    "added": [
+     "7900202611250003",
+     "7900202611250004",
+     "7900202611250007",
+     "7900202611250009"
+    ],
     "changed": [],
     "removed": []
    },
-   "snapshot": "1736 law-type documents in block region79; newest published 2026-11-16",
+   "snapshot": "1740 law-type documents in block region79; newest published 2026-11-25",
    "source": "pravo-jewish-autonomous-oblast",
-   "started": "2026-11-25T05:29:26Z",
+   "started": "2026-11-26T05:26:03Z",
    "unexplained": 0,
    "update": {
-    "parts": []
+    "append": {
+     "commits": 1,
+     "corrections": null,
+     "extended_acts": [
+      "zakony-2026"
+     ],
+     "new_acts": []
+    },
+    "parts": [
+     "95-watch-20261126-001.json"
+    ]
    },
    "verify": {
     "cycle_days": 1,
@@ -57,7 +81,7 @@
     "method": "the portal's whole listing for the subject (read this check, every page) parsed by the builder (ru_catalogue.parse) and compared, publication day by publication day, with the corpus this repository is built from; each year's newest state rendered by the builder (gitlaw_common) against the files at the tip of main",
     "ok": true,
     "swept": 12,
-    "versions_checked": 381,
+    "versions_checked": 382,
     "versions_differ": 0
    }
   }
