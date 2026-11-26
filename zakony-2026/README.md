@@ -1,6 +1,6 @@
 # Jewish Autonomous Oblast: catalogue of the laws published in 2026 (facts only, no law text)
 
-Законы 2026 · 26 versions, from 2026-01-12 (latest in force: 2026-11-16) · <http://publication.pravo.gov.ru/documents/block/region79>
+Законы 2026 · 27 versions, from 2026-01-12 (latest in force: 2026-11-25) · <http://publication.pravo.gov.ru/documents/block/region79>
 
 | Provision | File | Changes | Last changed |
 | --- | --- | ---: | --- |
@@ -10,6 +10,10 @@
 | Закон № 12-ОЗ | [12-oz.md](12-oz.md) | 1 | 2026-11-06 |
 | Закон № 13-ОЗ | [13-oz.md](13-oz.md) | 1 | 2026-11-11 |
 | Закон № 14-ОЗ | [14-oz.md](14-oz.md) | 1 | 2026-11-16 |
+| Закон № 15-ОЗ | [15-oz.md](15-oz.md) | 1 | 2026-11-25 |
+| Закон № 16-ОЗ | [16-oz.md](16-oz.md) | 1 | 2026-11-25 |
+| Закон № 17-ОЗ | [17-oz.md](17-oz.md) | 1 | 2026-11-25 |
+| Закон № 18-ОЗ | [18-oz.md](18-oz.md) | 1 | 2026-11-25 |
 | Закон № 2-ОЗ | [2-oz.md](2-oz.md) | 1 | 2026-11-06 |
 | Закон № 3-ОЗ | [3-oz.md](3-oz.md) | 1 | 2026-11-06 |
 | Закон № 4-ОЗ | [4-oz.md](4-oz.md) | 1 | 2026-11-06 |

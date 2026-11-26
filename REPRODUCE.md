@@ -1,6 +1,6 @@
 # How this repository was made (Jewish Autonomous Oblast)
 
-This file is written by the build on 2026-11-24, the day the source data was retrieved.
+This file is written by the build on 2026-11-26, the day the source data was retrieved.
 
 ## Sources
 
@@ -36,23 +36,23 @@ Every word of law in this repository comes from these sources. Lexifina reads th
 | `zakony-2023` | Jewish Autonomous Oblast: catalogue of the laws published in 2023 (facts only, no law text) | 39 | 2023-01-09 to 2023-12-29 |
 | `zakony-2024` | Jewish Autonomous Oblast: catalogue of the laws published in 2024 (facts only, no law text) | 29 | 2024-02-07 to 2024-12-26 |
 | `zakony-2025` | Jewish Autonomous Oblast: catalogue of the laws published in 2025 (facts only, no law text) | 35 | 2025-01-22 to 2025-12-29 |
-| `zakony-2026` | Jewish Autonomous Oblast: catalogue of the laws published in 2026 (facts only, no law text) | 26 | 2026-01-12 to 2026-11-16 |
+| `zakony-2026` | Jewish Autonomous Oblast: catalogue of the laws published in 2026 (facts only, no law text) | 27 | 2026-01-12 to 2026-11-25 |
 
-The build made 381 commits:
+The build made 382 commits:
 
 | Commits | Kind |
 | ---: | --- |
 | 12 | baseline texts where the record starts |
-| 369 | named laws, court decisions and treaties |
+| 370 | named laws, court decisions and treaties |
 | 0 | changes no amendment note explains, credited to the publisher |
 | 0 | corrections to the existing record |
 | 0 | printing or layout changes |
 
 Other counts:
-- 0 commits on the branch `future`: laws not yet in force on 2026-11-24.
+- 0 commits on the branch `future`: laws not yet in force on 2026-11-26.
 - 0 commits dated 1 January 1970: in force before 1970, with the real day in their `In-force` trailer.
-- 369 laws in the record.
-- 750 tags.
+- 370 laws in the record.
+- 752 tags.
 
 ## Dates
 
@@ -64,7 +64,7 @@ When a law gives no date of its own, the default rule applies: Catalogue entries
 
 `tools/build.py` turns the corpus into this history in one pass: one commit per law, on the day it took effect. The same corpus always gives the same commit hashes. `tools/check_repo.py` reads every version back from git and compares it with the corpus. `tools/on.py` shows the law as it stood on any date. The corpus format is described in `tools/SCHEMA.md`.
 
-- Corpus: sha256 `b704e7457ae19e8f957ceca135d34857294d5b9fd2230554cb10f485dfe3e8ca` (1959479 bytes).
+- Corpus: sha256 `e1fefb0899812757962afbf18bb08bd81320b2e8f7c7548a16e00aa214bc02a1` (2085478 bytes).
 - Builder blob hashes (`git hash-object`): `build.py` `3ed15ed797641367480d7d9c7e1a7c0b0f34d538`, `check.py` `e340718c28cd5b0edbe37bdeab1aac31427ada66`, `on.py` `467264bb286660494d9b93836dbef5109b4fa759`.
 - Python 3.14.0; git version 2.52.0.windows.1.
 
