@@ -6,8 +6,8 @@ How global-law measures how current every country is: [global-law FRESHNESS.md](
 
 ### Jewish Autonomous Oblast: Official Internet Portal of Legal Information (region79) · `russia/jewish-autonomous-oblast/acts`
 
-- The official source last read and every act held here checked against it: **2026-11-26 05:26 UTC**.
-- Acts held here: 1 736; current at the source: 1 736; changed at the source since the version held here: 4; no longer at the source: 0.
+- The official source last read and every act held here checked against it: **2026-11-27 05:22 UTC**.
+- Acts held here: 1 740; current at the source: 1 740; changed at the source since the version held here: 0; no longer at the source: 0.
 - Not published: 0 (—); with no reason: 0.
 
 In detail: [monitoring/](monitoring/README.md). For programs: [data/checks/latest.json](data/checks/latest.json).
